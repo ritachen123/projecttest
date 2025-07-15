@@ -51,5 +51,34 @@
         "x": 500,
         "y": 220,
         "wires": []
+    },
+    {
+        "id": "5d193314e137595c",
+        "type": "inject",
+        "z": "480ff7191c805b86",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "add ssh key",
+        "payloadType": "str",
+        "x": 250,
+        "y": 320,
+        "wires": [
+            [
+                "93505ade86a75cf0"
+            ]
+        ]
     }
 ]
